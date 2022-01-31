@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/joga-simple-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/drawable/button_about_gradient.xml" value="0.14635416666666667" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/drawable/button_bg.xml" value="0.1859375" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/drawable/button_gradient.xml" value="0.2703125" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/drawable/button_gradient_day.xml" value="0.22407407407407406" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/drawable/button_gradient_night.xml" value="0.14635416666666667" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/drawable/button_main_gradient.xml" value="0.14635416666666667" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/drawable/drawable_radio_group_tab_background.xml" value="0.1875" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/drawable/drawable_units_tab_selector.xml" value="0.1875" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/drawable/drawable_units_tab_text_color_selector.xml" value="0.1875" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/drawable/edit_bg.xml" value="0.1859375" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/drawable/exercise_set_gradient.xml" value="0.2361111111111111" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.14635416666666667" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/drawable/ic_baseline_volume_mute_24.xml" value="0.2703125" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/drawable/main_bg_btn_selector.xml" value="0.2703125" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/drawable/main_menu_gradient.xml" value="0.2703125" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/drawable/night_set_gradient.xml" value="0.2703125" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/layout/activity_about.xml" value="0.4" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/layout/activity_bmiactivity.xml" value="0.264" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/layout/activity_excercise.xml" value="0.1716485507246377" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/layout/activity_excercise_advanced.xml" value="0.19947916666666668" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/layout/activity_main_3.xml" value="0.17916666666666667" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/layout/activity_set_advanced.xml" value="0.264" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/layout/activity_set_beginners.xml" value="0.264" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/layout/excercise_dialog_layout.xml" value="0.1716485507246377" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/layout/setBeginners.xml" value="0.1421875" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/layout/set_advanced.xml" value="0.1421875" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/layout/set_beginners.xml" value="0.13020833333333334" />
+        <entry key="..\:/joga-simple-master/app/src/main/res/menu/main_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

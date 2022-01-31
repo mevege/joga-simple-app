@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/allan</item>
+        <item>@font/amita</item>
+        <item>@font/assistant_extralight</item>
+        <item>@font/baloo</item>
+        <item>@font/candal</item>
+        <item>@font/courgette</item>
+        <item>@font/damion</item>
+        <item>@font/galada</item>
+        <item>@font/hind_madurai_medium</item>
+        <item>@font/lilita_one</item>
+        <item>@font/mouse_memoirs</item>
+        <item>@font/rammetto_one</item>
+        <item>@font/rancho</item>
+        <item>@font/roboto</item>
+        <item>@font/roboto_regular</item>
+        <item>@font/roboto_thin</item>
+    </array>
+</resources>

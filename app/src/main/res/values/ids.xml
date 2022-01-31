@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="llDiplayBMIResult" type="id" />
+    <item name="btnCalculateUnits" type="id" />
+    <item name="tvBMIDescription" type="id" />
+    <item name="tvBMIType" type="id" />
+    <item name="tvBMIValue" type="id" />
+    <item name="tvYourBMI" type="id" />
+    <item name="tilMetricUnitHeight" type="id" />
+    <item name="etUsMetricUnitHeightInch" type="id" />
+    <item name="tilMetricUnitWeight" type="id" />
+    <item name="tilMetricUsUnitHeightInch" type="id" />
+    <item name="view" type="id" />
+    <item name="etUsMetricUnitHeightFeet" type="id" />
+    <item name="tilMetricUsUnitHeightFeet" type="id" />
+    <item name="etUsMetricUnitWeight" type="id" />
+    <item name="rgUnits" type="id" />
+    <item name="tilUsMetricUnitWeight" type="id" />
+    <item name="etMetricUnitHeight" type="id" />
+    <item name="etMetricUnitWeight" type="id" />
+</resources>
