@@ -20,11 +20,14 @@ class BMIActivity : AppCompatActivity() {
             val res = w / (h * h)
             result.text = "%.2f".format(res)
 
-            if (res > 25) {
+            if (res > 30) {
                 info.text = "otyłość"
+            } else if (res >= 25 && res < 29.99) {
+                info.text = "nadwaga"
             } else if (res >= 19 && res < 24.99) {
                 info.text = "waga prawidłowa"
-            } else {
+            }
+            else {
                 info.text = "niedowaga"
             }
         }

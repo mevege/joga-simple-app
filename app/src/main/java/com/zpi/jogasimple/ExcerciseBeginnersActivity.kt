@@ -15,70 +15,14 @@ import com.zpi.jogasimple.data.Exercise
 import com.zpi.jogasimple.data.ExerciseDatabase
 import kotlinx.android.synthetic.main.activity_excercise.*
 
-
-class Exercise(var exImg: Int = 0,
-               var exDesc:String = "",
-               var exTime:Int = 30)
-
 class ExcerciseActivity : AppCompatActivity() {
     var exerciseTime = 30;
     var exerciseDescription = "Przykladowy opis"
     var exerciseImage = 0;
-
     var currentExcercise: Exercise? = null;
     var timerIsStarted = false
-
     var currentExcerciseNo = 0
 
-
-//    val exerciseMorning = arrayOf(
-//        ExerciseAdvanced(R.drawable.beg_m_1, "Muktasana jest idealna pozą do chwili odpoczynku i medytacji. Ćwiczenie to ma na celu stopniowe rozbudzenie naszego organizmu po śnie i przygotowanie go do ruchu w następnych ćwiczeniach.\n" +
-//                "\n" +
-//                "W czasie trzech minut tego ćwiczenia skup się na głębokim i spokojnym oddechu.  Pamiętaj również o wyprostowanych plecach.\n",45),
-//        ExerciseAdvanced(R.drawable.beg_m_2, "Z pozycji przyjętego wcześniej siadu wykonuj rekoma naprzemiennie skłony w lewy i prawy bok. Nie spiesz się, dokładność rozciągnięcia jest ważniejsza. \n" +
-//                "\n" +
-//                "Ćwiczenie to pomoże nam rozciągnąć ramiona i ręce, które często cierpną w nocy przez spanie w nieodpowiednich pozycjach.",45),
-//        ExerciseAdvanced(R.drawable.beg_m_3,"Setu bandhasana, inaczej pozycja mostka. \n" +
-//                "Łopatki oraz góra pleców leżą na ziemi, podczas gdy biodra i zgięte w kolanach nogi podnoszą się ku górze.\n" +
-//                "Ćwiczenie należy wykonywać powtórzeniami, uwzględniając przerwy pomiędzy nimi. W ramach przerw należy poleżeć przez parę sekund.\n" +
-//                "\n" +
-//                "Asana ta działa pozytywnie na plecy, miednicę, nogi i klatkę piersiowa. Przygotowuje nas idealnie na czekający dzień - pomaga usunąć napięcie z barków, uśmierzyć ból pleców.",45),
-//        ExerciseAdvanced(R.drawable.beg_m_4,"Klęknięcie na jedną nogę z wyrokiem w przód (Anjaneyasana)\n" +
-//                "\n" +
-//                "W ćwiczeniu należy pozostać dłuższą chwilę, po czym zmieniać kolejność na drugą nogę.\n" +
-//                "\n" +
-//                "Pamiętaj o prostych plecach i spokojnym oddechu.\n" +
-//                "Ćwiczenie wspiera prawidłowe funkcjonowanie kolan.",45),
-//        ExerciseAdvanced(R.drawable.beg_m_5,"Asana psa z głową w dół (Adho Mukha Svanasana).\n" +
-//                "Osoby początkujące mogą stać na czubkach palców, ale w miarę postępów należy dążyć do postawienia stóp całkowicie na ziemi.\n" +
-//                "\n" +
-//                "Jest to jedna z najbardziej znanych póz jogi - używa się jej często jako relaksacyjnego przerywnika między sekwencjami ćwiczeń.\n" +
-//                "\n" +
-//                "Wpływa pozytywnie na krążenie krwi, wzmacnia ramiona i poprawia elastyczność stawów.",45))
-//
-//    val exerciseNight = arrayOf(
-//        ExerciseAdvanced(R.drawable.beg_n_1, "Adho mukhna virasana - skłon do przodu. \n" +
-//                "Pozycja ta jest jedna z lepszych jeśli chodzi o odprężenie ciała i regenerację po ciężkim dniu.\n" +
-//                "\n" +
-//                "Ćwiczenie pomaga uelastycznić kręgosłup, rozluźnia mięśnie szyi i intensywnie rozciąga kolana",45),
-//        ExerciseAdvanced(R.drawable.beg_n_2, " Siad klęczny z odchyleniem w tył. \n" +
-//                "Należy przyjąć tą samą pozycję przez cały czas trwania ćwiczenia.\n" +
-//                "\n" +
-//                "Ćwiczenie pomaga rozluźnić mięśnie karku, ramion i wzmacnia zasięg odchylania pleców",45),
-//        ExerciseAdvanced(R.drawable.beg_n_3,"Siad klęczny z wyciągnięciem do przodu.\n" +
-//                "Ćwiczenie należy wykonywać powtórzeniami z krótkimi przerwami pomiędzy.\n" +
-//                "\n" +
-//                "Pamiętaj żeby podczas ćwiczenia próbować sięgnąć jak najdalej.\n" +
-//                "\n" +
-//                "Ćwiczenie wspomaga ramiona, rozluźnia plecy i mięśnie karku.",45),
-//        ExerciseAdvanced(R.drawable.beg_n_4,"Pozycja kota (Marjarysana).\n" +
-//                "Wygięcia grzbietu należy utrzymywać przez dłuższą chwilę i uwzględniać chwile rozluźnienia między powtórzeniami.\n" +
-//                "\n" +
-//                "Ćwiczenie rewelacyjnie działa na kręgosłup wzmacniając go i rozluźniając przy tym plecy.",45),
-//        ExerciseAdvanced(R.drawable.beg_n_5,"Skręt w Svastikasanie. Ćwiczenie należy wykonywać naprzemiennie sięgnięciami za siebie. \n" +
-//                "\n" +
-//                "Należy pamiętać o prostych plecach i zsynchronizowaniu oddychania z wykonywanymi skrętami.\n" +
-//                "Ćwiczenie wpływa pozytywnie na mięśnie ramion i ich rozciągnięcie.",45))
 
     val db = ExerciseDatabase.getInstance(this)
     val ExerciseDao = db.exerciseDao()
@@ -91,8 +35,6 @@ class ExcerciseActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_excercise)
-
-
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
@@ -213,7 +155,4 @@ class ExcerciseActivity : AppCompatActivity() {
             dialog.show()
         }
     }
-
-
-
 }

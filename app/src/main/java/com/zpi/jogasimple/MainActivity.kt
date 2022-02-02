@@ -15,15 +15,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val db = ExerciseDatabase.getInstance(this)
-
-        val ExerciseDao = db.exerciseDao()
-        val exercisesList = ExerciseDao.getAllExercise()
-        println(exercisesList)
-
-
-
-
         exerciseBegButton.setOnClickListener{
             val setBeginnersIntent = Intent(this,setBeginners::class.java)
             startActivity(setBeginnersIntent)

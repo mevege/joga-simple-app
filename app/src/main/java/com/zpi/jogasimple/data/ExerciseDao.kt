@@ -1,6 +1,5 @@
 package com.zpi.jogasimple.data
 
-import androidx.lifecycle.LiveData
 import androidx.room.*
 
 
@@ -24,15 +23,5 @@ abstract class ExerciseDao {
 
     @Query ("SELECT * FROM exercise_table WHERE `set` LIKE 'night' AND `type` LIKE 'advanced'")
     abstract fun getAdvNight() : List<Exercise>
-//
-//    @Query ("DELETE FROM exercise_table")
-//    abstract fun deleteAll()
-
-//    @Delete
-//    abstract fun deleteAllExercise(exercise: Exercise)
-
-    @Insert
-    abstract fun addMultipleExercise(exercise: List<Exercise>)
-
 
 }
