@@ -9,6 +9,8 @@ data class Exercise(
     val resource: Int,
     val description: String,
     val time: Int,
+    val type: String,
+    val set: String,
     ){
     @PrimaryKey(autoGenerate = true)
     var id: Int = 0

@@ -18,7 +18,10 @@ class MainActivity : AppCompatActivity() {
         val db = ExerciseDatabase.getInstance(this)
 
         val ExerciseDao = db.exerciseDao()
-        val exercises = ExerciseDao.getAllExercise()
+        val exercisesList = ExerciseDao.getAllExercise()
+        println(exercisesList)
+
+
 
 
         exerciseBegButton.setOnClickListener{
